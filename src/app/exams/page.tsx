@@ -34,7 +34,7 @@ export default function ExamsPage() {
       case 'upcoming':
         return <Badge variant="warning">{t('common.upcoming')}</Badge>;
       case 'ongoing':
-        return <Badge variant="info">{t('batches.ongoing')}</Badge>;
+        return <Badge variant="secondary">{t('batches.ongoing')}</Badge>;
       case 'completed':
         return <Badge variant="secondary">{t('common.completed')}</Badge>;
       case 'published':
